@@ -4,3 +4,4 @@ corewar
 asm
 *.a
 .DS_Store
+.vscode
