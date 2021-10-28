@@ -1,7 +1,7 @@
 *.o
 *.cor
-corewar
-asm
+corewar/corewar
+asm/asm
 *.a
 .DS_Store
 .vscode

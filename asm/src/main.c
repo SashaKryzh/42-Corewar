@@ -17,7 +17,7 @@ int		main(int argc, char **argv)
 	int		i;
 
 	if (argc == 1)
-		ft_putendl("usage: ./asm file1.c file2.c ...");
+		ft_putendl("usage: ./asm file1.s file2.s ...");
 	else
 	{
 		i = 0;

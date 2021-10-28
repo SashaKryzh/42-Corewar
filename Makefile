@@ -33,7 +33,7 @@ all:
 	@echo "                        ███    ███                                         ███    ███ "
 	@printf "\x1b[32;1m"
 	@echo "[✓]Compiling LIB"
-	@$(MAKE) all -C $(LIB_DIR)
+	@$(MAKE) -s all -C $(LIB_DIR)
 	@echo "[✓]Compiling ASM"
 	@$(MAKE) all -C $(ASM_DIR)
 	@echo "[✓]Compiling COREWAR"
